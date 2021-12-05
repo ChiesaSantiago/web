@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<style>
+				*{
+					padding: 0;
+					margin: 0;
+				}
+
+               .contenedor{
+               	width: 1000px;
+               	margin: 0 auto;
+               }
+               img.foto{
+               	width: 200px;
+               	display: inline-block;
+               }
+               ul{
+               	list-style: none;
+               	position: absolute;
+               	top: 60px;
+               	right: 200px;
+               }
+               ul li{
+               	display: inline;
+               	margin: 0 20px;
+               }
+               ul li a{
+                text-decoration: none;
+                color: #83b633;
+               }
+               .info{
+               	background: #7aa300;
+               	padding-bottom: 2em;
+               	padding-top: 2em;
+               }
+               .info h1,
+               .info p{
+               	color: #ffffff;
+               	text-align: center;
+               	margin: 0;
+               }
+               .tres{
+                width:30%;
+                display: inline-block;
+                vertical-align: middle;
+               }
+               .imagen-central img{
+                width: 300px;
+               }
+               .check{
+                background: url(img/check.png) no-repeat;
+               }
+               .check p{
+                padding-left: 30px;
+                line-height: 30px;
+               }
+               section.especialistas{
+                background:#dcdcdc;
+                padding-top: 2em;
+                padding-bottom: 2em;
+               }
+               .especialistas .contenedor h2{
+                color: #447c11;
+                font-size: 32px;
+                font-weight: 700;
+               }
+               .formulario{
+                background: #202020;
+                padding: 15px;
+                width: 25%;
+                margin-left: 4em;
+               }
+               .formulario h3{
+                color: #ffffff;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                font-size: 24px;
+                font-weight: bold;
+                padding-left: 40px;
+               }
+               form input,
+               form textarea{
+                display: block;
+                border-radius: 5px;
+                margin: 5px auto;
+                width: 70%;
+                height: 25px;
+               }
+               form textarea{
+                height: 40px;
+               }
+               input[type="submit"]{
+                width: 50%;
+                background: #fb7104;
+                color: #ffffff;
+                text-transform: uppercase;
+                font-weight: bold;
+                border:none;
+               }
+               .cell{
+                display: table-cell;
+               }
+               section.caracteristicas h5{
+                padding: 1em;
+                font-size: 15px;
+               }
+               section.caracteristicas p{
+                padding: 1em;
+                text-align: justify;
+                line-height: 26px;
+               }
+               section.caracteristicas img {
+                width: 64px;
+                height: 54px;
+                vertical-align: middle;
+               }
+               section.kits{
+                background: #7aa300;
+                padding-bottom: 1em;
+               }
+               section.kits h2{
+                color: #ffffff;
+                text-align: center;
+                padding: 1em 0;
+                font-size: 32px;
+                font-weight: 700;
+               }
+               .uno-cuatro{
+                width: 24%;
+                display: inline-block;
+               }
+               section.testimoniales .contenedor h4{
+                text-align: center;
+                font-size: 32px;
+                color: #447c11;
+                margin-top: 2em;
+                margin-bottom: 2em;
+               }
+               section.testimoniales .contenedor{
+                margin-bottom: 2em;
+               }
+               section.testimoniales .contenedor .cell{
+                background-image: url(img/comillas.svg);
+                background-repeat: no-repeat;
+                padding-left: 85px;
+               }
+              
+              section.mapa{
+                margin-bottom: 2rem;
+              }
+              section.mapa .columna{
+                display: table-cell;
+                vertical-align: middle;
+              }
+              footer{
+                background: #7aa300;
+              }
+              footer p{
+                padding: 15px 0;
+              }
+		</style>
+</head>
+<body>
+		   <header>
+		   <div class="contenedor">	   	
+			   	<img class="foto" src="img/logo.png" alt="logo">
+
+			   <ul class="menu">
+			   	 <li><a href="#">Inicio</a></li>
+			   	 <li><a href="#">Características</a></li>
+			   	 <li><a href="#">Precio</a></li>
+			   	 <li><a href="#">Contacto</a></li>
+			   </ul>    	
+		   </div>
+		   </header>
+
+    <section class="info">
+    	<div class="contenedor">
+    		<h1>Instalación y ventas de instalaciones solares en Madrid</h1>
+    		<p>Diseñamos e instalamos kit solares con todas las garantías en la provincia de Madrid. Distribución a profesionales, realización y mantenimiento de grandes proyectos, financiación hasta 48 meses sin intereses, venta directa a particulares. Beneficiate de nuestro servício técnico</p>
+    	</div>
+    </section>
+    
+    <section class="especialistas">
+      <div class="contenedor">
+        <h2>Especialistas en energía solar</h2>
+        <div class="tres tics">
+          <div class="check">
+              <p>Energía solar para vivienda aislada</p>
+          </div>
+          <div class="check">
+             <p>Autoconsumo fotovoltaico</p>
+          </div>         
+          <div class="check">
+            <p>Bombeos solares</p>
+          </div>
+          <div class="check">
+            <p>Grandes proyectos</p>
+          </div>
+          <div class="check"> 
+            <p>Ingeniería energética</p>
+          </div>
+        </div>
+        <div class="tres imagen-central">
+           <img src="img/imagen-central.png">
+        </div>
+        <div class="tres formulario">
+         <h3>Solicítanos <br> presupuesto</h3>
+          <form method="post">
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Email">
+            <input type="tel" placeholder="Teléfono">
+            <textarea placeholder="Mensaje o consulta"></textarea>
+            <input type="submit" name="Enviar" value="Enviar Mensaje">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="caracteristicas contenedor">
+      <div class="cell">
+         <h5><img src="img/icon-1.png">Materiales de primera calidad</h5>
+         <p>Utilizamos marcas punteras en el sector energético, como Victron o SMA para inversores, Trojan u Hoppecke para baterías y Lorentz para bombeos.</p>
+      </div>
+      <div class="cell">
+         <h5><img src="img/icon-2.png">Presupuesto</h5>
+         <p>Realizamos presupuesto y dimensionado de su instalación de energía solar sin compromiso, estaremos encantados de atenderle.</p>
+      </div>
+      <div class="cell">
+         <h5><img src="img/icon-3.png">Garantía de Satisfacción</h5>
+         <p>Disponemos de garantía técnica para el cliente de 2 años, 25 años en nuestras placas o paneles solares y 5 años en los kits de placas solares con inversor Victron del que también somos servicio técnico oficial.</p>
+      </div>
+    </section>
+
+    <section class="kits">
+      <div class="contenedor">
+       <h2>Kits Solares Destacados</h2>
+        <div class="uno-cuatro">
+        <img src="img/kit.png">
+        <h4>Kit solar 850 W/día</h4>
+        <hr>
+          <p><b>Placas Solares</b> &nbsp; 1 de 150 W</p>
+          <hr>
+          <p><b>Baterías</b> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 de 105 Ah</p>
+          <hr>
+          <p><b>Inversor</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 350 VA</p>
+          <hr>
+          <p><b>Precio</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>856,51 €</b> </p>
+          <hr>
+      </div>
+      <div class="uno-cuatro">
+        <img src="img/kit.png">
+        <h4>Kit solar 3200 W/día</h4>
+        <hr>
+          <p><b>Placas Solares</b> &nbsp; 1 de 150 W</p>
+          <hr>
+          <p><b>Baterías</b> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 de 105 Ah</p>
+          <hr>
+          <p><b>Inversor</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 350 VA</p>
+          <hr>
+          <p><b>Precio</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>856,51 €</b> </p>
+          <hr>
+      </div>
+      <div class="uno-cuatro">
+        <img src="img/kit.png">
+        <h4>Kit solar 6400 W/día</h4>
+        <hr>
+          <p><b>Placas Solares</b> &nbsp; 1 de 150 W</p>
+          <hr>
+          <p><b>Baterías</b> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 de 105 Ah</p>
+          <hr>
+          <p><b>Inversor</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 350 VA</p>
+          <hr>
+          <p><b>Precio</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>856,51 €</b> </p>
+          <hr>
+      </div>
+      <div class="uno-cuatro">
+        <img src="img/kit.png">
+        <h4>Kit solar 19800 W/día</h4>
+        <hr>
+          <p><b>Placas Solares</b> &nbsp; 1 de 150 W</p>
+          <hr>
+          <p><b>Baterías</b> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 de 105 Ah</p>
+          <hr>
+          <p><b>Inversor</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 350 VA</p>
+          <hr>
+          <p><b>Precio</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>856,51 €</b> </p>
+          <hr>
+      </div>
+     </div><!-- fin del div .contenedor -->
+    </section>   
+    
+    <section class="testimoniales">
+      <div class="contenedor">
+       <h4>Testimoniales</h4>
+        <div class="cell">
+          <p>Muy contentos. Te explican todo claramente, te aconsejan, dan facilidades, la instalación estupenda. Excelente equipo de profesionales.</p>
+          <em>-Fulanito</em>
+        </div>
+        <div class="cell">
+          <p>Mi experiencia ha sido muy satisfactoria tanto la atención como descripción del artículo y el envío. Volveré a comprar en cuanto lo necesite, de verdad que muy muy bien.Muchas gracias</p>
+          <em>-Menganito</em>
+        </div>
+        <div class="cell">
+          <p>Recomiendo a e esta compañía, en cuanto al proceso de instalación super profesionales, puntuales y muy rigurosos en la instalación, bien es cierto que llevo poco tiempo con el producto instalado pero de momento todo perfecto. Las prestaciones que me está dando inmejorables.</p>
+          <em>-Alguien</em>
+        </div>
+      </div><!-- fin .contenedor -->
+    </section>
+    
+    <section class="mapa">
+     <div class="contenedor">
+          <div class="columna mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194348.1398168658!2d-3.8196225077815833!3d40.437869757283096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2sMadrid!5e0!3m2!1ses!2ses!4v1498212870399" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <div class="columna formulario">
+            <h3>Solicítanos <br> presupuesto</h3>
+              <form method="post">
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Teléfono">
+                <textarea placeholder="Mensaje o consulta"></textarea>
+                <input type="submit" name="Enviar" value="Enviar Mensaje">
+              </form>
+          </div>
+     </div>
+    </section>
+    
+    <footer>
+      <div class="contenedor">
+        <p>© 2017 Todos los derechos reservados.</p>
+      </div>
+    </footer>
+</body>
+</html>

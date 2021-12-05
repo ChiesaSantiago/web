@@ -1,0 +1,189 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor{
+    width:1000px;
+    margin: 0 auto;
+    }
+img.foto{
+    width:200px;
+    display:inline-block;
+   }
+   
+ul{
+   list-style: none;
+   position: absolute;
+   top: 60px;
+   right: 200px;
+   }
+   
+ul li{
+   display: inline;
+   margin: 0 20px;
+   }
+   
+ul li a{
+    text-decoration:none;
+    color: #83b633;
+    }
+.info{
+background: #7aa300;
+padding-bottom: 2em;
+padding-top: 2em;
+}
+
+.info h1,
+.info p{
+    color:#ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+.tres{
+    width:30%;
+    display: inline-block;
+    vertical-align: middle;
+   }
+   
+.imagen-central img{
+    width: 300px;
+   }
+
+.check{
+    background: url(../img/check.png) no-repeat;
+   }
+.check p{
+    padding-left: 30px;
+    line-height: 30px;
+   }
+.tres h3{
+    color:#ffffff;
+    text-align: center;
+    
+}
+.formulario{
+    background: #202020;
+    padding: 15px;
+    width: 25%;
+    margin-left: 4em;  
+}
+.formulario input,
+.formulario textarea{
+    display: block;
+    border-radius: 5px;
+    margin: 5px auto;
+    width: 70%;
+    height: 25px;
+}
+.formulario textarea{
+    height: 40px;
+   }
+input[type="submit"]{
+    width: 60%;
+    background: #fb7104;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:none;
+}
+section.especialistas{
+    background: #dcdcdc;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.especialistas .contenedor h2{
+    color: #447c11;
+    font-size: 32px;
+    font-weight: 700;
+   }
+.cell{
+    display: table-cell;
+   }
+section.caracteristicas img{
+    width: 64px;
+    height: 54px;
+    vertical-align: middle;
+}
+section.caracteristicas h5{
+    padding: 1em;
+    font-size: 15px;
+}
+section.caracteristicas p{
+    padding: 1em;
+    text-align: justify;
+    line-height: 26px;
+   }
+section.kits{
+    background: #7aa300;
+    padding-bottom: 1em;
+}
+section.kits h2{
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+.uno-cuatro{
+    width: 24%;
+    display: inline-block;
+}
+section.testimoniales .contenedor h4{
+    text-align: center;
+    font-size: 32px;
+    color: #447c11;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+section.testimoniales .contenedor{
+    margin-bottom: 2em;
+}
+section.testimoniales .contenedor .cell{
+    background-image: url(../img/comillas.svg);
+    background-repeat: no-repeat;
+    padding-left: 85px
+}
+section.mapa{
+    margin-bottom: 2rem;
+}
+section.mapa .columna{
+    display: table-cell;
+    vertical-align: middle;
+}
+footer{
+    background: #7aa300;
+}
+footer p{
+    padding: 15px 0;
+}
+section.mapa .formulario h3{
+    text-align: center;
+    color: white;
+}
+section.mapa .formulario{
+    background: #202020;
+    padding: 15px;
+    width: 30%;
+    padding-left:20px;
+}
+section.mapa .formulario input,
+section.mapa .formulario textarea{
+    display: block;
+    border-radius: 5px;
+    margin: 5px auto;
+    width: 70%;
+    height: 25px;
+}
+section.mapa .formulario textarea{
+    height: 40px;
+   }
+section.mapa .formulario input[type="submit"]{
+    width: 60%;
+    background: #fb7104;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:none;
+}
