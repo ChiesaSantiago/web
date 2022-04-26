@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="autor" content="Santiago">
+
+    <meta name="descripción" content="proyecto para certificar en freeCodeCamp: página tributo">
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <title>Formulario de encuesta</title>
+  </head>
+  
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Opina de tu empresa</h1>
+        <p id="description" class="description text-center">
+      Usa este formulario para hablar de la empresa donde trabajas
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Nombre</label>
+          <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Escribe tu nombre"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Escribe tu Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Años<span class="clue">(optional)</span></label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="form-control"
+        placeholder="Años"
+      />
+    </div>
+    <div class="form-group">
+          <label id="name-label" for="name">Nombre de la empresa</label>
+          <input
+        type="text"
+        name="nombre de la empresa"
+        id="empresa"
+        class="form-control"
+        placeholder="Escribe el nombre de tu empresa"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <p>¿A qué area perteneces?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Selecciona tu area</option>
+        <option value="IT">IT</option>
+        <option value="RRHH">Recursos Humanos</option>
+        <option value="ventas">ventas</option>
+        <option value="logistica">logística</option>
+        <option value="prefNo">prefiero no decirlo</option>
+        <option value="otro">otro</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>¿Recomendarias trabajar alli?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitivamente"
+          type="radio"
+          class="input-radio"
+          checked
+        />Definitivamente</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="quisas"
+          type="radio"
+          class="input-radio"
+        />Quisas</label>
+
+      <label>
+        <input
+          name="user-recommend"
+          value="no"
+          type="radio"
+          class="input-radio"
+        />No</label
+      >
+    </div>
+
+    <div class="form-group">
+      <p>
+        ¿Qué es lo que buscas en una empresa?
+      </p>
+      <select id="most-like" name="mostLike" class="form-control" required>
+        <option disabled selected value>Selecciona una opción</option>
+        <option value="sueldo">Sueldo</option>
+        <option value="horario">Horarios Flexibles</option>
+        <option value="home">Trabajar desde casa</option>
+        <option value="beneficios">Beneficios</option>
+        <option value="otros">Otros</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>
+        ¿Qué cosas consideras que estan bien en tu empresa?
+        <span class="clue">(elije todas las opciones que apliquen)</span>
+      </p>
+
+      <label>
+        <input
+          name="conforme"
+          value="sueldo"
+          type="checkbox"
+          class="input-checkbox"
+        />Sueldo</label>
+      <label>
+        <input
+          name="conforme"
+          value="Horarios"
+          type="checkbox"
+          class="input-checkbox"
+        />Horarios</label>
+      <label>
+        <input
+          name="conforme"
+          value="ambiente"
+          type="checkbox"
+          class="input-checkbox"
+        />Ambiente laboral</label>
+      <label>
+        <input
+          name="conforme"
+          value="bonoPremio"
+          type="checkbox"
+          class="input-checkbox"
+        />Bonos/premios</label>
+      <label>
+        <input
+          name="conforme"
+          value="regalo"
+          type="checkbox"
+          class="input-checkbox"
+        />Regalos</label>
+      <label>
+        <input
+          name="conforme"
+          value="beneficio"
+          type="checkbox"
+          class="input-checkbox"
+        />Beneficios</label>
+      <label>
+        <input
+          name="conforme"
+          value="capa"
+          type="checkbox"
+          class="input-checkbox"
+        />Capacitaciones</label>
+      <label
+        ><input
+          name="conforme"
+          value="crecimiento"
+          type="checkbox"
+          class="input-checkbox"
+        />Oportunidad de crecen dentro de la empresa</label>
+    </div>
+
+    <div class="form-group">
+      <p>Comentarios y sugerencias</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Agrege cualqueir comentario que considere importante"
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+
+    
+  </body>
+</html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
